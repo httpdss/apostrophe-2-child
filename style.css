@@ -10,3 +10,48 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: apostrophe-2-child
 */
+
+
+@media (min-width: 768px) {
+    #page {
+        padding-top: 20px;
+    }
+
+    .logo-header {
+        float: left;
+    }
+
+    .site-branding {
+        padding-bottom: 15px;
+    }
+
+    .search-bar-header {
+        float: right;
+        padding-bottom: 10px;
+    }
+}
+
+div.wpforms-container-full .wpforms-form .wpforms-field-label {
+    font-size: 11px !important;
+    color: #333;
+}
+
+
+div.wpforms-container-full {
+    background-color: #f3f4f5 !important;
+    padding: 30px 40px !important;
+}
+
+button, input, select, textarea {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #888 !important;
+}
+
+div.wpforms-container-full .wpforms-form button[type=submit] {
+    background-color: #117bb8 !important;
+    color: #fff !important;
+}
+
+label {
+    color: #333 !important;
+}
