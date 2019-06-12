@@ -13,7 +13,7 @@ function enqueue_parent_styles() {
 function apostrophe_2_child_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Top', 'apostrophe-2' ),
-		'id'            => 'sidebar-5',
+		'id'            => 'sidebar-top',
 		'before_widget' => '<aside id="%1$s" class="widget-top %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title-top">',
@@ -22,7 +22,7 @@ function apostrophe_2_child_widgets_init() {
 
 	register_sidebar( array(
 		'name'          => esc_html__( 'Header', 'apostrophe-2' ),
-		'id'            => 'sidebar-6',
+		'id'            => 'sidebar-header',
 		'before_widget' => '<aside id="%1$s" class="widget-header %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h2 class="widget-title-header">',
